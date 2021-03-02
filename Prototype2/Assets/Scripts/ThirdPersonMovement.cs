@@ -8,6 +8,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public Transform cam;
 
     public float speed = 6f;
+    public float sprintSpeed = 20f;
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
 
@@ -23,10 +24,20 @@ public class ThirdPersonMovement : MonoBehaviour
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y ; 
             //smoothing angles inside of unity so that turns smoothly
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
-            transform.rotation = Quaternion.Euler(0f, angle, 0f);
+            transform.rotation = Quaternion.Euler(0f, angle, 0f); 
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-            controller.Move(moveDir * speed * Time.deltaTime);
-        }
+            
+
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                controller.Move(moveDir * sprintSpeed * Time.deltaTime + new Vector3(0, -10, 0) * Time.deltaTime);
+            }
+            else
+            {
+                controller.Move(moveDir * speed * Time.deltaTime + new Vector3(0, -1, 0) * Time.deltaTime);
+            }
+        } 
+        
     }
 }

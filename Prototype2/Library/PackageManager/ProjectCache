@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: E:/Concordia Winter 2021/Cart315/Prototype2/Packages/manifest.json
+    m_FilePath: E:/Concordia Winter 2021/Cart315/Prototype-2-cart315/Prototype2/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,12 +8,12 @@ m_ProjectFiles:
       ticks: 637497164166906083
     m_Hash: 3591231133
   m_LockFileStatus:
-    m_FilePath: E:/Concordia Winter 2021/Cart315/Prototype2/Packages/packages-lock.json
+    m_FilePath: E:/Concordia Winter 2021/Cart315/Prototype-2-cart315/Prototype2/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637497164174113661
+      ticks: 637497715527718267
     m_Hash: 660052619
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.6.3
       source: 1
-      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype2\Library\PackageCache\com.unity.cinemachine@2.6.3
+      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype-2-cart315\Prototype2\Library\PackageCache\com.unity.cinemachine@2.6.3
       assetPath: Packages/com.unity.cinemachine
       name: com.unity.cinemachine
       displayName: Cinemachine
@@ -144,7 +144,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype2\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype-2-cart315\Prototype2\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -239,7 +239,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype2\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype-2-cart315\Prototype2\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -340,7 +340,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.5
       source: 1
-      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype2\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype-2-cart315\Prototype2\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -411,7 +411,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype2\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype-2-cart315\Prototype2\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -480,7 +480,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.20
       source: 1
-      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype2\Library\PackageCache\com.unity.test-framework@1.1.20
+      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype-2-cart315\Prototype2\Library\PackageCache\com.unity.test-framework@1.1.20
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -568,7 +568,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype2\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype-2-cart315\Prototype2\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -719,7 +719,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.17
       source: 1
-      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype2\Library\PackageCache\com.unity.timeline@1.2.17
+      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype-2-cart315\Prototype2\Library\PackageCache\com.unity.timeline@1.2.17
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2679,7 +2679,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype2\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: E:\Concordia Winter 2021\Cart315\Prototype-2-cart315\Prototype2\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2737,5 +2737,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: E:/Concordia Winter 2021/Cart315/Prototype2/Packages
+m_ProjectPath: E:/Concordia Winter 2021/Cart315/Prototype-2-cart315/Prototype2/Packages
 m_EditorVersion: 2020.2.4f1 (becced5a802b)
