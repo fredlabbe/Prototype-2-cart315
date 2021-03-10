@@ -8,7 +8,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public Transform cam;
 
     public float speed = 6f;
-    public float sprintSpeed = 20f;
+    public float sprintSpeed = 30f;
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
 
@@ -32,6 +32,7 @@ public class ThirdPersonMovement : MonoBehaviour
             if (Input.GetKey(KeyCode.LeftShift))
             {
                 controller.Move(moveDir * sprintSpeed * Time.deltaTime + new Vector3(0, -10, 0) * Time.deltaTime);
+                Debug.Log("Srinting: " + sprintSpeed + "\n" +moveDir); //sprintSpeed is printed as 10 and not 30f
             }
             else
             {
